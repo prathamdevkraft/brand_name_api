@@ -25,7 +25,7 @@ cd brand_api
 pip install -r requirements.txt
 
 # Install spaCy model
-python -m spacy download en_core_web_sm
+python -m spacy download xx_ent_wiki_sm
 
 # Copy environment configuration
 cp .env.example .env
