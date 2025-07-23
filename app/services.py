@@ -71,7 +71,8 @@ class AIBrandIdentifierService:
                 self.ner_pipeline = pipeline(
                     "ner", 
                     #model="dbmdz/bert-large-cased-finetuned-conll03-english",
-                    model="Davlan/xlm-roberta-base-ner-hrl",
+                    #model="Davlan/xlm-roberta-base-ner-hrl",
+                    model="dslim/bert-base-NER",
                     aggregation_strategy="simple"
                 )
                 self.has_transformers = True
