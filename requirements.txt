@@ -1,0 +1,35 @@
+# FastAPI and core dependencies
+fastapi
+uvicorn[standard]
+python-multipart
+pydantic
+pydantic-settings
+
+# AI/ML dependencies
+openai
+spacy
+transformers
+torch
+
+# Additional ML libraries
+scikit-learn
+numpy
+
+# For advanced NLP
+nltk
+
+# Web and async
+aiofiles
+httpx
+
+# Utility libraries
+python-dotenv
+
+# Optional: For production deployments
+gunicorn
+
+# Development dependencies (optional)
+pytest
+pytest-asyncio
+black
+flake8
